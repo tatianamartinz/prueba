@@ -1,0 +1,87 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:30px;
+    margin-right:50px;
+    overflow:hidden;
+
+}
+
+form {
+    display: inline-grid;
+}
+
+.form-register {
+    display: grid;
+    width: 90%;
+}
+.contenedor-columnas{
+width: 100%;
+margin: auto;
+margin-left: 10%;
+
+}
+.columnasx1{
+    width: 50%;
+    float:left;
+    margin-top:-10px;
+    
+    
+}
+.columnasx2{
+    width: 50%;
+    float:left;
+    
+}
+input#nombres {
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
+input#email {
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
+input#sujeto {
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
+textarea {
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #e1e1e1;
+
+}
+input.boton {
+    background-color: #0da0fc;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 400px;
+    border-radius: 20px;
+    font-size: 15px;
+    border-color: transparent;
+}
+h1{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: normal;
+}
+#map{
+    height: 350px;
+    width: 70%;
+}

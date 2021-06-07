@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba helen tatiana martinez</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <section class="contenedor-columnas">
+        <div class="columnasx1">
+            <h1>¿Tiene usted alguna pregunta?</h1>
+            <div class="form-register">
+                <form action="">
+                    <input class="name"     type="text" name="nombres" id="nombres" placeholder="Tu nombre">
+                    <input class="email"    type="email" name="email" id="email" placeholder="Tu correo electronico">
+                    <input class="sujeto"   type="text" name="sujeto" id="sujeto" placeholder="Sujeto">
+                    <textarea name="textarea" rows="10" cols="50" placeholder="Mensaje" ></textarea>
+                    <input class="boton"    type="submit" onclick='enviarFormulario()' value="Enviar mensaje">
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section class="contenedor-columnas">
+        <div class="columnasx2">
+            <div id="map">
+
+            </div>
+        </div>
+
+    </section>
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</body>
+</html>
